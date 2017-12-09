@@ -17,7 +17,11 @@ library(pROC)
 library(randomForest)
 
 
-# 10 fold KNN classification with Caret package
+# Classification with Caret package
+# Caret package details: http://topepo.github.io/caret/index.html
+#Caret package available models: http://topepo.github.io/caret/pre-processing.html
+# Preprocessing/feature transformation in Caret package (not done here):  http://topepo.github.io/caret/pre-processing.html#cs
+# Finding variable importance in caret(can be used for feature selection, not done here): http://topepo.github.io/caret/variable-importance.html
 cat("\014")  # command to clear the screen
 
 

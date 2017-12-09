@@ -28,7 +28,6 @@ testData <- read.csv("DatasetTesting.csv", stringsAsFactor=TRUE, header=TRUE)
 
 #list of all classifcation and regression methods supported by R
 #names(getModelInfo())
-#this grid must be used for svmRadialCost
 grid <- expand.grid(degree = c(1,3,5,10), scale = c(0.01,0.1,1,10), C = c(0.001,0.01,0.1,0.25,0.5,0.75,1,10,50,100))
 
 # 10 fold cross validation

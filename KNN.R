@@ -20,7 +20,7 @@ set.seed(12345)
 # Caret package details: http://topepo.github.io/caret/index.html
 #Caret package available models: http://topepo.github.io/caret/pre-processing.html
 # Preprocessing/feature transformation in Caret package (not done here):  http://topepo.github.io/caret/pre-processing.html#cs
-# Finding varaible importance in caret(can be used for feature selection, not done here): http://topepo.github.io/caret/variable-importance.html
+# Finding variable importance in caret(can be used for feature selection, not done here): http://topepo.github.io/caret/variable-importance.html
 cat("\014")  # comman to clear the screen
 
 

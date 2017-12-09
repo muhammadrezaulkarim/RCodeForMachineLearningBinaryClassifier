@@ -10,6 +10,7 @@ install.packages("randomForest")
 install.packages("e1071")
 install.packages("ROCR")
 
+# Place the F1Score.R, PrecisionScore.R and recallScore.R files in the same folder for evaluation purpose.
 library (ROCR)
 library(caret)
 library(klaR)  # required for Naive Bayes Model

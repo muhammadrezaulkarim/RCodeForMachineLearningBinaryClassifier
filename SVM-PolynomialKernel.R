@@ -1,4 +1,4 @@
-
+#packages need to be installed fist time only. After that disable all lines starting with 'install.packages' 
 install.packages("caret")
 install.packages("klaR")
 install.packages("Rcpp")

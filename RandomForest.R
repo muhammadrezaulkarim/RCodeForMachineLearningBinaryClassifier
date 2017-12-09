@@ -24,6 +24,7 @@ cat("\014")  # command to clear the screen
 # Load the datasets. ID column contains the class variable and it is the first column in the data set
 # You need to change the code if class variable has different name and also the indices of the predictor variables
 # where we used 'testData[,2:56]'. Your data sets might have different numbers of predictors
+# ID column has been used in many places in the file. All occurences need to be replaced with your class variable name
 originalData <- read.csv("DatasetTraining.csv", stringsAsFactor=TRUE, header=TRUE)
 testData <- read.csv("DatasetTesting.csv", stringsAsFactor=TRUE, header=TRUE)
 

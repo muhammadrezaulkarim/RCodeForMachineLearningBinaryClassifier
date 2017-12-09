@@ -49,7 +49,7 @@ predictedResult <- predict(model, testData[,2:56])
 # specificity can be treated as the recall of the negative class, while Neg Pred Value can be treated as the precison of the
 #negative class
 
-CM<-confusionMatrix(predictedResult, originalData$ID) # first encountered class will be treated as positive class
+CM<-confusionMatrix(predictedResult, testData$ID) # first encountered class will be treated as positive class
 CM
 
 print("Precison of classes (in following order of classes:) and mean precison of all classes")

@@ -19,8 +19,9 @@ library(e1071)
 cat("\014")  # comman to clear the screen
 
 
-# Load the datasets. ID column contains the class variable and it is the first column
+# Load the datasets. ID column contains the class variable and it is the first column in the data set
 # You need to change the code if class variable has different name and also the indices of the predictor variables
+# where we used 'testData[,2:56]'
 originalData <- read.csv("DatasetTraining.csv", stringsAsFactor=TRUE, header=TRUE)
 testData <- read.csv("DatasetTesting.csv", stringsAsFactor=TRUE, header=TRUE)
 
